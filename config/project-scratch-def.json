@@ -1,7 +1,8 @@
 {
   "orgName": "michael.holt Company",
-  "edition": "Enterprise",
+  "edition": "Partner Developer",
   "features": [],
+  "hasSampleData":true,
   "settings": {
     "lightningExperienceSettings": {
         "enableS1DesktopEnabled": true
