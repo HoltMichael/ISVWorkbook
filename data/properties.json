@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FirstApp001__Property__c",
+                "referenceId": "prop1"
+            },
+            "Name": "Salesforce Tower, London",
+            "FirstApp001__Street__c": "Salesforcer Tower, 110 Bishopsgate",
+            "FirstApp001__City__c": "London",
+            "FirstApp001__State__c": "London",
+            "FirstApp001__Post_Code__c": "EC2N 4AY",
+            "FirstApp001__Country__c": "United Kingdom"
+        },
+        {
+            "attributes": {
+                "type": "FirstApp001__Property__c",
+                "referenceId": "prop2"
+            },
+            "Name": "Salesforce Tower, San Francisco",
+            "FirstApp001__Street__c": "415 Mission St",
+            "FirstApp001__City__c": "San Francisco",
+            "FirstApp001__State__c": "CA",
+            "FirstApp001__Post_Code__c": "94105",
+            "FirstApp001__Country__c": "United States"
+        },
+        {
+            "attributes": {
+                "type": "FirstApp001__Property__c",
+                "referenceId": "prop3"
+            },
+            "Name": "Salesforce Tower, New York",
+            "FirstApp001__Street__c": "1095 Avenue of the Americas",
+            "FirstApp001__City__c": "New York",
+            "FirstApp001__State__c": "New York",
+            "FirstApp001__Post_Code__c": "10036",
+            "FirstApp001__Country__c": "United States"
+        }
+    ]
+}

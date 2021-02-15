@@ -1,11 +1,20 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "PropertyManager",
+            "versionName": "Accelerate",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "namespace": "FirstApp001",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "46.0",
+    "packageAliases": {
+        "PropertyManager": "0Ho1n000000KykOCAS",
+        "PropertyManager@0.1.0-1": "04t1n0000028NeMAAU",
+        "PropertyManager@0.1.0-2": "04t1n0000028NeRAAU",
+        "PropertyManager@0.1.0-3": "04t1n000002WrATAA0"
     }
-  ],
-  "namespace": "workbook001",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "46.0"
 }

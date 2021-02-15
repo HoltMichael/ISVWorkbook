@@ -2,17 +2,17 @@
 public with sharing class PropertyUtils_Test {
     @testSetup
     static void propertyUtilsTestSetup(){
-        workbook001__property__c property = new workbook001__property__c(
-            workbook001__street__c = '415 Mission St',
-            workbook001__City__c = 'San Francisco',
-            workbook001__Post_code__c = 'CA 94105',
-            workbook001__Country__c = 'United States');
+        FirstApp001__property__c property = new FirstApp001__property__c(
+            FirstApp001__street__c = '415 Mission St',
+            FirstApp001__City__c = 'San Francisco',
+            FirstApp001__Post_code__c = 'CA 94105',
+            FirstApp001__Country__c = 'United States');
         insert property;   
     }
 
     @isTest
     static void getPropertyAddressTest(){
-        workbook001__property__c property = [SELECT id FROM workbook001__property__c][0];
+        FirstApp001__property__c property = [SELECT id FROM FirstApp001__property__c][0];
         test.startTest();
             propertyUtils.MapMarker result = PropertyUtils.getPropertyAddress(property.id)[0];
         test.stopTest();

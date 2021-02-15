@@ -11,7 +11,7 @@
         <name>Property</name>
         <dataType>String</dataType>
         <value>
-            <stringValue>workbook001__Property__c</stringValue>
+            <stringValue>FirstApp001__Property__c</stringValue>
         </value>
     </constants>
     <constants>
