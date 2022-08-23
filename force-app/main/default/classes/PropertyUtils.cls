@@ -3,9 +3,9 @@ public with sharing class PropertyUtils {
     @AuraEnabled(cacheable=true)
     public static List<MapMarker> getPropertyAddress(id recId) {
         system.debug(recId);
-        FirstApp001__Property__c prop = [SELECT FirstApp001__street__c, FirstApp001__city__c, FirstApp001__state__c, FirstApp001__country__c, FirstApp001__post_code__c FROM FirstApp001__Property__c WHERE id =: recId][0];     
+        Property__c prop = [SELECT street__c, city__c, state__c, country__c, post_code__c FROM Property__c WHERE id =: recId][0];     
 
-        Location loc = new Location(prop.FirstApp001__street__c, prop.FirstApp001__city__c, prop.FirstApp001__state__c, prop.FirstApp001__post_code__c, prop.FirstApp001__country__c);
+        Location loc = new Location(prop.street__c, prop.city__c, prop.state__c, prop.post_code__c, prop.country__c);
         MapMarker mark = new MapMarker('icon', 'title', 'description', loc);
         List<MapMarker> locs = new List<MapMarker>{mark};
         return locs;
