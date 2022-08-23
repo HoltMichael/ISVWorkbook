@@ -1,4 +1,4 @@
-sfdx force:org:create -f config/project-scratch-def.json -a workbookScratch --setdefaultusername -d 30
+sfdx force:org:create -f config/project-scratch-def.json -a accelerateScratch --setdefaultusername -s -d 2
 
 sfdx force:source:push 
 
